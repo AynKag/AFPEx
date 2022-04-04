@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFPEx", "AFPEx\AFPEx.csproj", "{A088E404-FCBD-4E51-8ADB-9031B32D1D55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A088E404-FCBD-4E51-8ADB-9031B32D1D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A088E404-FCBD-4E51-8ADB-9031B32D1D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A088E404-FCBD-4E51-8ADB-9031B32D1D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A088E404-FCBD-4E51-8ADB-9031B32D1D55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD707290-76F4-4564-9E01-719C78CE5795}
+	EndGlobalSection
+EndGlobal
