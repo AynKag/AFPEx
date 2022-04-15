@@ -1,0 +1,42 @@
+﻿<Window x:Class="AFPEx.Windows.WinthdrawWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AFPEx.Windows"
+        mc:Ignorable="d"
+        Title="WinthdrawWindow" Height="450" Width="800">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="792" >
+            <Border BorderBrush="Black" BorderThickness="0,0,0,3"></Border>
+            <Grid HorizontalAlignment="Left" Height="80" Margin="20,10,0,0" VerticalAlignment="Top" Width="70">
+                <Image HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Source="C:\Users\aim-s\source\repos\AFPEx\AFPEx\data\img\Binance.png" Margin="10,0,0,0"/>
+                <Label Content="Binance" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="80" Margin="120,10,0,0" VerticalAlignment="Top" Width="70">
+                <Image HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Source="C:\Users\aim-s\source\repos\AFPEx\AFPEx\data\img\OKX.png" Margin="10,0,0,0"/>
+                <Label Content="OKX" HorizontalAlignment="Left" Margin="18,50,0,0" VerticalAlignment="Top" Width="40"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="80" Margin="220,10,0,0" VerticalAlignment="Top" Width="70">
+                <Image HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Source="C:\Users\aim-s\source\repos\AFPEx\AFPEx\data\img\KuCoin.png" Margin="10,0,0,0"/>
+                <Label Content="KuCoin" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="80" Margin="320,10,0,0" VerticalAlignment="Top" Width="70">
+                <Image HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Source="C:\Users\aim-s\source\repos\AFPEx\AFPEx\data\img\HitBTC.png" Margin="10,0,0,0"/>
+                <Label Content="HitBTC" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top"/>
+            </Grid>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="304" Margin="10,105,0,0" VerticalAlignment="Top" Width="541">
+            <Label Content="Selected rialto:" FontSize="20" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+            <Label Content="..." FontSize="20" HorizontalAlignment="Left" Margin="150,10,0,0" VerticalAlignment="Top"/>
+            <Label Content="Deposit amount:" FontSize="20" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top"/>
+            <TextBox HorizontalAlignment="Left" Height="33" Margin="171,54,0,0" TextWrapping="Wrap" Text="1234" VerticalAlignment="Top" Width="159" FontSize="20"/>
+            <Button Content="Withdraw money" HorizontalAlignment="Left" Margin="10,92,0,0" VerticalAlignment="Top" Width="163" Height="36" FontSize="19" Background="Red" />
+
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="304" Margin="556,105,0,0" VerticalAlignment="Top" Width="226">
+            <Button Content="Info" HorizontalAlignment="Left" Margin="76,10,0,0" VerticalAlignment="Top" Width="75" FontSize="19" Background="Yellow"/>
+            <Button Content="Delete" HorizontalAlignment="Left" Margin="76,44,0,0" VerticalAlignment="Top" Width="75" FontSize="19" Background="red"/>
+        </Grid>
+    </Grid>
+</Window>
